@@ -12,8 +12,8 @@ class Department:
 # implemente-os se for necessários.
 # -----------------------------------------------------------------
 # Protejido implementando o "from abc import ABC, abstractmethod"
-# implementando o (ABC) de classe Abstrata no Employee
-# e tornado obrigatorio implmentar com o @abstratctmethod antes dos métodos
+# implementando o (ABC) de classe Abstrata no Employee e o @abstratctmethod
+# e tornado obrigatorio implementar os metodos, definindo na classe Employee
 
 class Employee(ABC):
     # Padronize uma carga horária de 8 horas para todos os funcionários.
